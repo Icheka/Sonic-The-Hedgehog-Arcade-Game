@@ -1,0 +1,55 @@
+@media only screen and (min-width: 100px){
+#title {
+    margin: auto;
+    padding-left: 2%;
+    width: auto;
+    display: inline-block;
+    color: brown;
+    font-family: Magneto, cursive, sans-serif;
+    margin-bottom: 3px;
+    font-size: 200%;
+}
+.background {
+    background: rgb(52, 166, 251);
+    border-spacing: 0;
+}
+.background td {
+    padding: 0;
+}
+.lava {
+    background: rgb(255, 100, 100);
+}
+.wall {
+    background: white;   
+}
+.actor {
+    position: absolute;
+}
+.coin {
+    background: rgb(241, 229, 89);
+    border-radius: 50%;
+}
+.player {
+    background: rgb(64, 64, 64);
+}
+.lost .player {
+    background: rgb(160, 64, 64);
+}
+.won .player {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.game {
+    overflow: hidden;
+    max-width: 600px;
+    max-height: 450px;
+    position: relative;
+}
+#gameArea {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    box-shadow: -2px -2px skyblue;
+    box-shadow: 2px 2px skyblue;
+}
+}
